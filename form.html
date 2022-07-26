@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="form.css">
+    <!--Icons Link-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login & SignUp Form</title>
+</head>
+<body>
+    <!--MAIN DIV-->
+    <div class="login_Div">
+
+        <!--CONTENT DIV-->
+        <div class="login_content">
+
+            <!-- <h1>WELCOME</h1> -->
+
+            <!--IMAGE DIV-->
+            <div class="login_img">
+                <img src="/image/login help portal.svg" alt="">
+            </div>
+
+            <!--FORMS DIV-->
+            <div class="login_form">
+
+                <!--SIGN IN-->
+                <form action="" class="login_register" id="login_in">
+                    <h1 class="login_title">Sign In</h1>
+
+                    <div class="login_box">
+                        <i class="bx bx-user login_icon"></i>
+                        <input type="text" placeholder="Username"
+                         class="login_input" required>
+                    </div>
+
+                    <div class="login_box">
+                        <i class="bx bx-lock-alt login_icon"></i>
+                        <input type="password" placeholder="Password"
+                         class="login_input" required>
+                    </div>
+
+                    <a href="#" class="login_forgot">Forgot Password?</a>
+                    <a href="index.html" class="home">Home</a>
+                    <a href="#" class="login_button">Sign In</a>
+                    
+
+                   <div>
+                       <span class="login_account">Don't have an Account?</span>
+                       <span class="login_signup" id="sign_up">Sign Up</span>
+                   </div>
+                </form>
+
+                <!--CREATE ACCOUNT-->
+
+                <form action="" class="login_create" id="login_up">
+                    <h1 class="login_title">Create Account</h1>
+
+                    <div class="login_box">
+                        <i class="bx bx-user login_icon"></i>
+                        <input type="text" placeholder="Username"
+                        class="login_input" required>
+                    </div>
+
+                    <div class="login_box">
+                        <i class="bx bx-at login_icon"></i>
+                        <input type="text" placeholder="Email"
+                         class="login_input" required>
+                    </div>
+
+                    <div class="login_box">
+                        <i class="bx bx-lock-alt login_icon"></i>
+                        <input type="password" placeholder="Password"
+                         class="login_input" required>
+                    </div>
+
+                    <div class="login_box">
+                        <i class="bx bx-lock-alt login_icon"></i>
+                        <input type="password" placeholder="Confirm Password"
+                         class="login_input" required>
+                    </div>
+
+                    <a href="#" class="login_button">Sign Up</a>
+
+                   <div>
+                       <a href="index.html" class="home">Home</a><br>
+                       <span class="login_account">Already have an Account?</span>
+                       <span class="login_signin" id="sign_in">Sign In</span>
+                   </div>
+
+                   <div class="login_social">
+                       <a href="#" class="login_social-icon">
+                        <i class='bx bxl-facebook'></i>
+                       </a>
+
+                       <a href="#" class="login_social-icon">
+                        <i class='bx bxl-twitter'></i>
+                       </a>
+
+                       <a href="#" class="login_social-icon">
+                        <i class='bx bxl-google'></i>
+                       </a>
+                   </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
