@@ -211,7 +211,7 @@ header .container {
   } */
 
   .container .logo h3 {
-    display: none;
+    font-size: 1.2rem;
   }
 
   /* .harmbuger-menu .bar {
